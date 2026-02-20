@@ -1,0 +1,40 @@
+body {
+    font-family:Verdana, sans-serif;
+}
+header {
+    /*
+    background-image:url()*/
+    background-attachment: scroll;
+    text-align:center;
+}
+header > hr {
+    border-style:double;
+    border-width:5px;
+    border-color:blue;
+}
+main {
+    padding:15px;
+    text-align:left;
+}
+address > a:hover {
+    text-decoration:none;
+}
+.build-card {
+    display:inline-block;
+    width:33%;
+    border-width:3px;
+    border-style:solid;
+    border-radius:24px;
+    border-color:darkblue;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
