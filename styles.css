@@ -70,6 +70,12 @@ code {
     padding:5px;
 }
 
+.MediaPresentation {
+    height:200px;
+    display:inline-block;
+    margin:20px;
+}
+
 /*
 FOOTER
 */
