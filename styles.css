@@ -45,6 +45,24 @@ address > a:hover {
     border: 0;
 }
 
+.idea-card {
+    display:inline-block;
+    border-radius: 20px;
+    border-width:5px;
+    border-style:groove;
+    min-width: 200px;
+    height:300px;
+    font-family:Arial, sans-serif;
+    font-size:20px;
+    font-weight:normal;
+    color:rgb(0,0,100);
+    padding:20px;
+    margin:30px;
+}
+.idea-card > p {
+    padding:20px;
+}
+
 /*
 FOOTER
 */
