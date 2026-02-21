@@ -63,6 +63,13 @@ address > a:hover {
     padding:20px;
 }
 
+code {
+    font-family:'Courier New', Courier, monospace;
+    font-size:18px;
+    font-weight:lighter;
+    padding:5px;
+}
+
 /*
 FOOTER
 */
