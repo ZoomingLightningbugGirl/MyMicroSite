@@ -76,6 +76,11 @@ code {
     margin:20px;
 }
 
+td, th {
+    padding:10px;
+    margin:10px;
+}
+
 /*
 FOOTER
 */
