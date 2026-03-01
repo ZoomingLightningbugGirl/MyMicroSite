@@ -1,5 +1,6 @@
 body {
     font-family:Arial, sans-serif;
+    background-color:bisque;
 }
 /*
 HEADER
@@ -7,10 +8,11 @@ HEADER
 header {
     /*
     background-image:url()*/
-    background-attachment: scroll;
+    background-attachment:scroll;
     text-align:center;
+    background-color:bisque;
 }
-header > hr {
+header hr {
     border-style:double;
     border-width:5px;
     border-color:blue;
@@ -21,17 +23,40 @@ MAIN
 main {
     padding:15px;
     text-align:left;
+    background-color:antiquewhite;
+    font-weight:400;
 }
-address > a:hover {
+
+.about:hover, .about:focus {
+    color:rgb(20,20,60);
+    background-color:bisque;
+    font-size:1.1rem;
+    font-weight:400;
+}
+
+address a:hover {
     text-decoration:none;
 }
+
+h2:focus, h2:hover {
+    background-color: bisque;
+    color:rgb(36, 53, 53);
+    font-style:italic;
+    font-weight:900;
+}
+
 .build-card {
     display:inline-block;
-    width:33%;
+    width:50vw;
+    height:50vh;
     border-width:3px;
     border-style:solid;
-    border-radius:24px;
+    border-radius:20px;
     border-color:darkblue;
+    background-color:aliceblue;
+    color:midnightblue;
+    text-align:center;
+    padding:10px 30px;
 }
 .sr-only {
     position: absolute;
@@ -50,7 +75,7 @@ address > a:hover {
     border-radius: 20px;
     border-width:5px;
     border-style:groove;
-    min-width: 200px;
+    width:40vw;
     height:300px;
     font-family:Arial, sans-serif;
     font-size:20px;
@@ -59,8 +84,13 @@ address > a:hover {
     padding:20px;
     margin:30px;
 }
-.idea-card > p {
+.idea-card p {
     padding:20px;
+}
+
+.idea-card:focus, .idea-card:hover {
+    background-color:rgb(240, 208, 165);
+    font-weight:700;
 }
 
 code {
@@ -76,6 +106,30 @@ code {
     margin:20px;
 }
 
+.schematic-card {
+    display:inline-block;
+    border:2px solid cadetblue;
+    padding:10px 20px;
+    border-radius:20px;
+    border-collapse:collapse;
+    background-color:aliceblue;
+    color:midnightblue;
+    font-size:1.2rem;
+    font-weight:300;
+    text-align:center;
+}
+
+.schematic-card img {
+    width:60%;
+    border-radius:30px;
+}
+
+.schematic-card:focus, .schematic-card:hover {
+    background-color:cadetblue;
+    border-color:darkblue;
+    font-weight:700;
+}
+
 td, th {
     padding:10px;
     margin:10px;
@@ -86,8 +140,9 @@ FOOTER
 */
 footer {
     text-align:center;
+    background-color:bisque;
 }
-nav > a {
+nav a {
     display:inline-block;
     text-decoration: none;
     color:rgb(10,10,40);
@@ -95,8 +150,14 @@ nav > a {
     margin:10px;
     border-style:solid;
     border-width:2px;
-    border-color:lightblue;
-    background-color:rgb(79, 135, 170);
+    border-color:rgb(79, 135, 170);
+    background-color:lightblue;
     font-family:'Arial', Helvetica, sans-serif;
     font-size:24px;
+}
+nav a:hover, nav a:focus {
+    text-decoration:underline;
+    background-color:rgb(27, 79, 110);
+    color:rgb(195, 159, 159);
+    border-radius:5px;
 }
